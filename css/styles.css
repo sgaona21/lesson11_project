@@ -18,7 +18,7 @@ body {
 }
 
 .gallery a {
-    /* This code uses flex to center each thumbnail and adds some margin as well. */
+    /* This code uses flex to center each thumbnail within its own grid slot and adds some margin as well. */
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -34,7 +34,7 @@ body {
   }
   
   .gallery img:hover {
-    /* This code cretes the hover effect and slightly enlarges the thumbnail. */
+    /* This code cretes the hover effect that slightly enlarges the thumbnail. */
     transform: scale(1.05);
   }
 
